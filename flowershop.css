@@ -19,15 +19,21 @@ body {
     padding: 190px 240px 365px 240px;
 }
 .first-img{
+    margin-top: -40px;
+    margin-left: 90px;
 }
-.header-title {
+.header-title {    
+    width: 708px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    width: 708px;
+    margin-bottom: 32px;
 }
 
 .paragraph {
+    margin-right: 170px;
+    margin-top: 0px;
+    max-width: 634px;
     font-size: 18px;
     color: #27272799;
     font-weight: 400;
@@ -35,6 +41,7 @@ body {
 }
 
 .btn-primary {
+    margin-top: 0px;
     border-radius: 8px;
     background: #E55473;
     color: #fff;
