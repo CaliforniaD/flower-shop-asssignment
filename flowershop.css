@@ -1,40 +1,40 @@
 /*header part*/
-
 .left-part {
     text-align: left;
-    padding: 197px 978px 147px 240px;
 }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        /*padding: 197px 240px 240px 240px;*/
+    }
+
 
 body {
     font-family: 'Lato', sans-serif;
 }
-.header{
+
+.header {
     max-width: 1920px;
-    flex-shrink: 0;
-    background: rgba(229, 84, 115, 0.10);
+    background-color: #E554731A;
+    padding: 190px 240px 365px 240px;
+}
+.first-img{
 }
 .header-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin-bottom: 32px;
     width: 708px;
 }
 
-
-/*duita k eksthe flex krte hbe*/
-
-
 .paragraph {
-    margin-top: 0px;
-    margin-bottom: 32px;
-    display: flex;
-    width: 634px;
-    flex-direction: column;
-    flex-shrink: 0;
+    font-size: 18px;
+    color: #27272799;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn-primary{
-    margin-top: 0px;
+
+.btn-primary {
     border-radius: 8px;
     background: #E55473;
     color: #fff;
