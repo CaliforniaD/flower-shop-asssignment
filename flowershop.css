@@ -56,7 +56,7 @@ body {
 }
 
 /* main section*/
-.feature-title{
+.feature-title {
     margin-top: 178px;
     color: #272727;
     text-align: center;
@@ -74,13 +74,27 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-main section{
+
+main section {
     margin-top: 128px;
 }
-.featured{
-    
+
+.rectangles {
+    display: flex;
 }
-.flowers{
-    margin-inline: 125px;
-    justify-content:space-around;
+
+.flowers {
+    border: 0;
+    padding: 160px 150px 195px 200px;
 }
+
+.one {
+    margin-left: 20px;
+    margin-right: 140px;
+}
+
+.two {
+    margin-right: 140px;
+}
+
+.three {
