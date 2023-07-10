@@ -2,11 +2,12 @@
 .left-part {
     text-align: left;
 }
-    .banner {
-        display: flex;
-        justify-content: space-between;
-        /*padding: 197px 240px 240px 240px;*/
-    }
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /*padding: 197px 240px 240px 240px;*/
+}
 
 
 body {
@@ -18,11 +19,13 @@ body {
     background-color: #E554731A;
     padding: 190px 240px 365px 240px;
 }
-.first-img{
+
+.first-img {
     margin-top: -40px;
     margin-left: 90px;
 }
-.header-title {    
+
+.header-title {
     width: 708px;
     color: #272727;
     font-size: 80px;
@@ -50,4 +53,34 @@ body {
     padding: 20px 43px;
     border: 0;
     gap: 10px;
+}
+
+/* main section*/
+.feature-title{
+    margin-top: 178px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.para {
+    margin-top: 24px;
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+main section{
+    margin-top: 128px;
+}
+.featured{
+    
+}
+.flowers{
+    margin-inline: 125px;
+    justify-content:space-around;
 }
