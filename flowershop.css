@@ -1,0 +1,46 @@
+/*header part*/
+
+.left-part {
+    text-align: left;
+    padding: 197px 978px 147px 240px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    max-width: 1920px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    width: 708px;
+}
+
+
+/*duita k eksthe flex krte hbe*/
+
+
+.paragraph {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.btn-primary{
+    margin-top: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border: 0;
+    gap: 10px;
+}
