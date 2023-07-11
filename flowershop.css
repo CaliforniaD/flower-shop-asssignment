@@ -257,6 +257,39 @@ main section {
     max-width: 265px;
 }
 
+.ig,
+.sc {
+    max-width: 40px;
+    margin-left: 650px;
+}
+.ig{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.extra-title {
+    align-items: center;
+}
+
+.connect2 {
+    color: #272727;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.extra-section {
+    justify-content: center;
+}
+.connect {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 .get-deal {
     color: #272727;
     text-align: center;
@@ -266,7 +299,6 @@ main section {
     margin-left: -330px;
     margin-bottom: 10px;
 }
-
 .coupon {
     margin-top: 0px;
     color: rgba(39, 39, 39, 0.60);
@@ -276,7 +308,6 @@ main section {
     line-height: 25px;
     margin-left: -350px;
 }
-
 .last-part {
     background-image: url(assets/Rectangle\ 9.png);
     max-width: 1400px;
@@ -287,13 +318,11 @@ main section {
     margin-left: 130px;
     margin-bottom: 80px;
 }
-
 .mail-btn {
     display: flex;
     align-items: end;
     margin-left: 180px;
 }
-
 .sub-id {
     margin-left: -50px;
     margin-bottom: 24px;
@@ -302,18 +331,15 @@ main section {
     background: #FFF;
     border: 0;
 }
-
 .email {
     display: flex;
     border: 0;
     border-radius: 5px;
 }
-
 .sub-btn {
     margin-left: 10px;
     margin-bottom: 20px;
 }
-
 .flowershop {
     color: #E55473;
     font-size: 44px;
@@ -347,12 +373,15 @@ main section {
     margin-top: 32px;
     margin-bottom: 128px;
 }
-.flex{
+
+.flex {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.footer{
+
+.footer {
     width: 1300px;
     height: 400px;
-    background: #111010;;
+    background: #111010;
+    ;
 }
