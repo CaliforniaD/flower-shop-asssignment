@@ -67,9 +67,10 @@ body {
 }
 
 .para {
-    margin-top: 24px;
-    color: #272727;
+    margin-left: 530px;
     text-align: center;
+    max-width: 590px;
+    color: #27272799;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -83,18 +84,77 @@ main section {
     display: flex;
 }
 
-.flowers {
-    border: 0;
-    padding: 160px 150px 195px 200px;
-}
+.featured {}
 
 .one {
-    margin-left: 20px;
-    margin-right: 140px;
+    /* margin-left: 20px;
+    margin-right: 140px;*/
+    margin-top: 110px;
+    padding: 110px 78px 0px 75px;
+
 }
 
 .two {
     margin-right: 140px;
+    padding: 117px 47px 57px 47px;
 }
 
 .three {
+    margin-left: 0px;
+    padding: 67px 75px 0px 75px;
+}
+
+#rec1 {
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: #A7216226;
+    margin-right: 24px;
+    margin-left: 100px;
+}
+
+#rec2 {
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-left: 0px;
+    margin-right: 24px;
+}
+
+#rec3 {
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.name-of-flowers {
+   display:inline;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.a{
+    margin-top:32px;
+    margin-bottom: 128px;
+    margin-right: 307px;
+    margin-left: 380px;
+}
+.b{
+    margin-top:32px;
+    margin-bottom: 128px;
+    margin-right: 307px;
+    margin-left: 380px;
+}
+.c{
+    margin-top:32px;
+    margin-bottom: 128px;
+    margin-left: 307px;
+    margin-right: 380px;
+}
