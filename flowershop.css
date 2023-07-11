@@ -132,7 +132,9 @@ main section {
 }
 
 .name-of-flowers {
-   display:inline;
+    padding: 32px 120px 128px 81px;
+    display: flex;
+    justify-content: space-around;
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -143,18 +145,18 @@ main section {
 .a{
     margin-top:32px;
     margin-bottom: 128px;
-    margin-right: 307px;
-    margin-left: 380px;
+    margin-right: 107px;
+    margin-left: 80px;
 }
 .b{
     margin-top:32px;
     margin-bottom: 128px;
-    margin-right: 307px;
-    margin-left: 380px;
+    margin-right: 250px;
+    margin-left: 0px;
 }
 .c{
     margin-top:32px;
     margin-bottom: 128px;
-    margin-left: 307px;
+    margin-left: 0px;
     margin-right: 380px;
 }
