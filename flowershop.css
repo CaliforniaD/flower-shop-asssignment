@@ -141,19 +141,64 @@ main section {
 .support-section {
     display: flex;
     justify-content: space-between;
-    background : #2727270D;
+    background: #2727270D;
     max-width: 1152px;
     margin: 0 auto;
     text-align: center;
 }
+
 .support-section img {
     max-width: 71px;
 }
-.support{
+
+.support {
     margin-top: 70px;
     padding: 20px;
     gap: 0px;
 }
-.heading{
+
+.heading {
     margin-bottom: 71px;
+}
+
+/*new section signup*/
+.title-signup {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.colorful-text {
+    color: #E55473;
+}
+
+.signup-main{
+    max-width: 1500px;
+    max-height: 520px;
+}
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E554730D;
+}
+.signup-layout {
+    margin-right: 165px;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.paragraphs {
+    width: 515px;
+    color:#27272799;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.signup-img{
+    margin : 80px 350px 40px 120px;
 }
