@@ -274,12 +274,23 @@ main section {
 }
 
 .sub-part {
+    width: 1152px;
+    background-image: url('assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 8px;
-    background-image: url(flower\ Asset/)
+    margin: 50px 300px 50px 300px;
+
 }
-.sub-id{
-    display: block;
-    margin-bottom: 24px;
+.mail-btn{
+    display: flex;
+}
+.sub-id {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    margin-bottom: 0px;
     padding: 18px 35px;
     border-radius: 5px;
     background: #FFF;
