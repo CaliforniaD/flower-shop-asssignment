@@ -1,43 +1,43 @@
 /*header part*/
 .left-part {
-    text-align: left;
+    padding: 8px;
+    margin-left: 100px;
+    margin-top: 120px;
 }
-
 .banner {
     display: flex;
     justify-content: space-between;
-    /*padding: 197px 240px 240px 240px;*/
 }
-
-
+    /*padding: 197px 240px 240px 240px;*/
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .header {
-    max-width: 1920px;
+    width: 100%;
     background-color: #E554731A;
-    padding: 190px 240px 365px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.first-img {
-    margin-top: -40px;
-    margin-left: 90px;
-}
+.first-img img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
 
 .header-title {
-    width: 708px;
+    width: 520px;
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
-
 .paragraph {
-    margin-right: 170px;
+    margin-right: 150px;
     margin-top: 0px;
-    max-width: 634px;
-    font-size: 18px;
+    max-width: 650px;
+    font-size: 15px;
     color: #27272799;
     font-weight: 400;
     line-height: 30px;
@@ -48,9 +48,9 @@ body {
     border-radius: 8px;
     background: #E55473;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 18px 35px;
     border: 0;
     gap: 10px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .para {
-    margin-left: 530px;
+    margin-left: 370px;
     text-align: center;
     max-width: 590px;
     color: #27272799;
@@ -79,29 +79,21 @@ body {
 main section {
     margin-top: 128px;
 }
-
-.rectangles {
-    display: flex;
-}
-
-.featured {}
-
 .one {
     /* margin-left: 20px;
     margin-right: 140px;*/
-    margin-top: 110px;
-    padding: 110px 78px 0px 75px;
+    margin-top: 120px;
+    padding: 50px 35px 0px 35px;
 
 }
 
 .two {
-    margin-right: 140px;
-    padding: 117px 47px 57px 47px;
+    margin-top: 120px;
+    padding: 85px 0px 20px 15px;
 }
 
 .three {
-    margin-left: 0px;
-    padding: 67px 75px 0px 75px;
+    margin: 120px 40px 0px 40px;
 }
 
 #rec1 {
@@ -110,7 +102,7 @@ main section {
     border-radius: 300px 300px 0px 0px;
     background: #A7216226;
     margin-right: 24px;
-    margin-left: 100px;
+    margin-left: 105px;
 }
 
 #rec2 {
@@ -132,7 +124,7 @@ main section {
 }
 
 .name-of-flowers {
-    padding: 32px 120px 128px 81px;
+    padding: 32px 45px 128px 81px;
     display: flex;
     justify-content: space-around;
     color: #272727;
@@ -142,21 +134,20 @@ main section {
     line-height: 35px;
     text-decoration-line: underline;
 }
-.a{
-    margin-top:32px;
-    margin-bottom: 128px;
-    margin-right: 107px;
-    margin-left: 80px;
+.support-img, .support-title{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 175px 0px 175px;
 }
-.b{
-    margin-top:32px;
-    margin-bottom: 128px;
-    margin-right: 250px;
-    margin-left: 0px;
+.support-title{
+    padding: 24px 100px 87px 50px;
 }
-.c{
-    margin-top:32px;
-    margin-bottom: 128px;
-    margin-left: 0px;
-    margin-right: 380px;
+
+.support-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
 }
