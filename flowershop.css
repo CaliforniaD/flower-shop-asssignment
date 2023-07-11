@@ -227,26 +227,58 @@ main section {
     margin-top: 100px;
     margin-bottom: 24px;
 }
-.insta-images{
+
+.insta-images {
     align-items: center;
     display: flex;
     justify-content: center;
     justify-content: space-between;
     justify-content: center;
 }
-.pictures{
+
+.pictures {
     margin: 5px;
     padding: 10px;
 }
-.picture1{
+
+.picture1 {
     max-width: 265px;
 }
-.picture2{
+
+.picture2 {
     max-width: 265px;
 }
-.picture3{
+
+.picture3 {
     max-width: 265px;
 }
-.picture4{
+
+.picture4 {
     max-width: 265px;
+}
+
+.get-deal {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sub-part {
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.email {
+    border-radius: 5px;
+    background: #FFF;
 }
